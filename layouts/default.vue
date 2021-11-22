@@ -1,5 +1,6 @@
 <template>
   <div>
+    <navbar/>
     <nuxt />
   </div>
 </template>
@@ -53,3 +54,13 @@ html {
   background-color: #35495e;
 }
 </style>
+
+<script>
+import Navbar from '~/components/shared/Navbar.vue'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
